@@ -1,0 +1,1598 @@
+/* Universal selector */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.main-navbar {
+	display: flex;
+	gap: 3rem;
+	padding: 12px 60px;
+	flex: 1;
+}
+
+.main-navbar a{
+	font-size: 1.5rem;
+	color: white;
+}
+
+.header-nav {
+	display: none;
+}
+
+.first-h {
+	background-color: #54595F;
+	color: white;
+	line-height: 15px;
+	padding: 9px 69px;
+	display: flex;
+}
+
+#menu-text {
+	font-size: 10px;
+	margin-left: 3px;
+}
+
+#Welcome-text {
+	font-size: 15px;
+	flex: 1;
+	font-family: monospace;
+}
+
+#location-text {
+	font-size: 15px;
+	font-family: monospace;
+}
+
+h1 {
+	font-size: 19px;
+	letter-spacing: 2px;
+	align-self: center;
+	/*display: flex;
+	flex: 1;*/
+	text-align: left;
+	padding: 9px;
+	padding-left: 67px;
+	text-shadow: 0px 5px 4px black;
+}
+
+.home-header {
+	padding: 24px 5px;
+	background-color: rgb(254,45,45);
+	color: white;
+	width: 100%;
+	display: flex;
+}
+
+.navbar-container {
+	display: flex;
+	background-color: black;
+	position: sticky;
+	top: 0;
+}
+
+.Dgentle-icon1 {
+	width: 0px;
+}
+
+.Dgentle-icon {
+	width: 22px;
+	margin: 0px 66px;
+	cursor: pointer;
+}
+
+#h1 {
+	background-color: rgb(254,45,45);
+	color: white;
+	border-radius: 1px;
+	padding: 5px 12px;
+	font-size: 9px;
+	letter-spacing: 2px;
+	text-shadow: 0px 3px 3px black;
+}
+
+.arrow-box {
+	margin-right: 64px;
+	cursor: pointer;
+}
+
+.rightarr-he {
+	border: 2px solid white;
+	border-radius: 64px;
+	margin: 6px 7px;
+	padding: 4px;
+}
+
+.arrow-box p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.questionmark-box {
+	margin-right: 12px;
+	cursor: pointer;
+}
+
+.questionmark-he {
+	border: 2px solid white;
+	border-radius: 64px;
+	margin: 6px 9px;
+	padding: 4px;
+}
+
+.questionmark-box p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.search-box {
+	margin-top: 11px;
+	margin-left: 24px;
+	flex: 1;
+}
+
+.search-button {
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	border: 1px solid white;
+	padding: 6px;
+}
+
+.search {
+	padding: 6px;
+	margin-left: 7px;
+	padding-right: 6rem;
+	border-radius: 12px;
+	border: 1px solid white;
+	font-size: 13px;
+}
+
+.search-img {
+	padding-top: 3px;
+	width: 15px;
+}
+
+.power-button {
+	width: 22px;
+	margin: 0px 2px;
+	display: none;
+}
+
+#OFFER {
+	color: rgb(254,45,45);
+}
+
+.diagram1 {
+	width: 50%;
+}
+
+.diagram2 {
+	width: 50%;
+}
+
+.diagram3 {
+	width: 50%;
+}
+
+.diagram4 {
+	width: 50%;
+}
+
+
+
+/**/
+
+	.home-article {
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.Electronics-h2 {
+		clear: both;
+		margin-bottom: 9px;
+		padding: 11px 11px;
+		background-color: whitesmoke;
+		font-size: 15px;
+	}
+
+	.home-header-button {
+		background-color: limegreen;
+		color: white;
+		border: solid limegreen;
+		font-size: 10px;
+		padding: 2px 12px;
+		border-radius: 6px;
+		margin: 12px 0px;
+		float: left;
+		cursor: pointer;
+
+	}
+
+	.call-order {
+		background-color: midnightblue;
+		border: 1px solid midnightblue;
+		color: white;
+		padding: 3px 12px;
+		border-radius: 6px;
+		font-size: 10px;
+		float: left;
+		margin: 12px 5px;
+		cursor: pointer;
+	}
+
+	.TVs {
+		margin-bottom: 2rem;
+	}
+
+	.Samsung55tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container {
+		width: 50%;
+	}
+
+	.image-container:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Samsung40tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container2 {
+		width: 50%;
+	}
+
+	.image-container2:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LED43tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container3 {
+		width: 50%;
+	}
+
+	.image-container3:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG50tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container4 {
+		width: 50%;	
+	}
+
+	.image-container4:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG43tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container5 {
+		width: 50%;
+	}
+
+	.image-container5:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Sony65tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container6 {
+		width: 50%;
+	}
+
+	.image-container6:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG55tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container7 {
+		width: 50%;
+	}
+
+	.image-container7:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Samsung43tv {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+
+	.image-container8 {
+		width: 50%;
+	}
+
+	.image-container8:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.AC {
+		width: 70%;
+		padding: 33px 0px;
+	}
+
+	.image-container9 {
+		width: 50%;
+	}
+
+	.image-container9:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Soundbar {
+		width: 90%;
+		margin-top: 190px;
+		margin-bottom: 0px;
+	}
+
+	.image-container10 {
+		width: 50%;
+	}
+
+	.image-container10:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	#naira {
+	/*	font-weight: bold;*/
+		font-size: 13px;
+		margin: 7px 0px;
+		font-family: cursive;
+		color:  #ea2027;
+	}
+
+	.Addcart {
+		background-color: rgb(254,45,45);
+		border: 1px solid rgb(254,45,45);
+		border-radius: 2px;
+		color: white;
+		width: 100%;
+		font-size: 12px;
+		padding: 9px;
+		margin: 11px 0px;
+		cursor: pointer;
+	}
+
+	.Addcart:active {
+		background-color: red;
+		border: 1px solid red;
+	}
+
+	a {
+		text-decoration: none;
+		color: midnightblue;
+	}
+
+	footer {
+		padding: 12px;
+		background-color: #595F66;
+		color: white;
+	}
+
+	.Contact-footer {
+		padding: 5px 0px;
+		font-size: 13px;
+	}
+
+	#Whatsapp-no {
+		padding: 6px 0px;
+		font-weight: bold;
+	}
+
+	.Connect {
+		padding: 4px 0px;
+		font-size: 13px;
+	}
+
+	.main-footer {
+		width: 60%;	
+		float: left;
+	}
+
+	.connect {
+		width: 40%;
+		float: left;
+	}
+
+	.About-Us {
+		padding: 5px 0px;
+		font-size: 13px;
+	}
+
+	#Copyright {
+		margin: 7px 0px;
+	}
+
+
+	#FACEBOOK-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#INSTAGRAM-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#TIKTOk-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#facebook {
+		margin-left: 10px;
+	}
+
+	#instagram {
+		margin-left: 5px;
+
+	}
+
+	#tiktok {
+		margin-left: 26px;
+
+	}
+
+	#Whatsapp-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#Whatsapp {
+		margin-left: 5px;
+	}
+
+	.TVs {
+		text-align: center;
+	}
+
+
+	.footer-nav {
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		width: 100%;
+		background-color: white;
+		padding-top: 4px;
+		display: none;
+
+	}
+
+	.home-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+
+	.Categories-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Brands-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Cart-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Profile-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	/* Samsung55tv-html */
+
+	.Samsung55tv-html {
+		width: 40%;
+		text-align: center;
+	}
+
+	.Addcart-categories {
+		background-color: limegreen;
+		border: 1px solid limegreen;
+		border-radius: 2px;
+		color: white;
+		width: 100%;
+		font-size: 12px;
+		padding: 2px 4px;
+		margin-top: 7px;
+		cursor: pointer;
+	}
+
+	.Details {
+		margin-left: 24px;
+		line-height: 1.7rem;
+	}
+
+	.main-Tvs {
+		margin-left: 12px;
+		line-height: 1.5rem;
+	}
+
+	#Alaba-Market {
+		color: grey;
+	}
+
+	#Samsung-text {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+
+	#Stock {
+		color: forestgreen;
+	}
+
+	.Categories-article {
+		margin-top: 34PX;
+		margin-bottom: 54px;
+	}
+
+	#Sale {
+		color: midnightblue;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	#heyth {
+		font-size: 1.7rem;
+		color: black;
+		font-weight: bold;
+	}
+
+	#heyth:active {
+		color: midnightblue;
+	}
+
+
+	#heyth-Home {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Categories {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Categories:active {
+		color: midnightblue;
+	}
+
+	#heyth-Brands {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Brands:active {
+		color: midnightblue;
+	}
+
+	#heyth-Cart {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Cart:active {
+		color: midnightblue;
+	}
+
+	#heyth-Profile {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Profile:active {
+		color: midnightblue;
+	}
+
+	/* End  */
+
+	.AC-box {
+		margin: 10px;
+		display: flex;
+		gap: 0.6rem;
+	}
+
+	.AC-heading {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	#AC-p {
+		text-align: center;
+		font-size: 13px;
+		margin: 9px 22px;
+	}
+
+	.TVs-c {
+		margin: 10px;
+		display: flex;
+		gap: 0.6rem;
+	}
+
+	.All-Cate {
+		text-align: center;
+		background-color: black;
+		background-image: url(img/Newsletter.png);
+		background-size: cover;
+		color: black;
+		padding: 3rem;
+		margin-top: 5rem;
+	}
+
+	.All- {
+		font-size: 14px;
+		margin-bottom: 15px;
+		padding-top: 62px;
+	}
+
+	.Cate-nav a{
+		color: black;
+		margin: 23px;
+		font-size: 11px;
+	}
+
+	#Cate-Home {
+		margin-right: 5px;
+	}
+
+	#Cate-AllCategories {
+		margin-left: 5px;
+	}
+
+	.Container-cate {
+		display: flex;
+		width: 100%;
+	/*	border: 1px solid red;*/
+
+		margin-top: 10px;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.Container-cate a {
+		color: black;
+	}
+
+	.Con-1 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+	.Con-2 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+	.Con-3 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+	.Container-box1 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box2 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box3 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box4 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box5 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box6 {
+		display: flex;
+		width: 100%;
+	}
+
+	.sec1 {
+		display: flex;
+	}
+
+	.sec2 {
+		display: flex;
+	}
+
+	.section- {
+		width: 89%;
+		margin: 0 auto;
+		font-weight: bold;
+		color: #3b3d3b;
+		line-height: 1.4rem;
+	}
+
+
+@media(max-width: 820px) {
+
+	.first-h {
+		background-color: #54595F;
+		color: white;
+		padding: 5px;
+		text-align: center;
+		line-height: 15px;
+		display: block;
+	}
+
+	#menu-text {
+		display: none;
+	}
+
+	#Welcome-text {
+		font-size: 11px;
+	}
+
+	#location-text {
+		font-size: 11px;
+	}
+
+	.header-nav {
+		height: 22px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.links-container {
+		height: 100%;
+		width: 100%;
+		display: none;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.header-nav a {
+		height: 100%;
+		padding: 0 20px;
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: black;
+	}
+
+	.header-nav a:hover {
+		background-color: blue;
+
+	}
+
+	.Home-link {
+		margin-right: auto;
+	}
+
+	#sidebar-active {
+		display: none;
+	}
+
+	.open-sidebar-button,
+	.close-sidebar-button {
+		display: none;
+		margin-top: 3px;
+	}
+
+
+	.links-container{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		position: fixed;
+		top: 0;
+		left: -100%;
+		z-index: 10;
+		width: 230px;
+
+		background-color: white;
+		box-shadow: -2px 0 5px darkgrey;
+		transition: .9s ease-out;
+	}
+
+	.header-nav a {
+		height: auto;
+		width: 100%;
+		padding: 12px;
+		justify-content: flex-start;
+		font-size: 13px;
+	}
+
+	.open-sidebar-button,
+	.close-sidebar-button {
+		display: block;
+	}
+
+	#sidebar-active:checked ~ .links-container {
+		left: 0;
+		display: flex;
+
+	}
+
+	#sidebar-active:checked ~ #overlay {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 9;
+	}
+
+	h1 {
+		font-size: 9px;
+		letter-spacing: 1px;
+		flex: 1;
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.home-header {
+	/*	border: 1px solid red;*/
+		padding: 7px;
+		background-color: darkblue;
+		background-color: rgb(254,45,45);
+		color: white;
+		width: 100%;
+		display: flex;
+		position: sticky;
+		top: 0;
+	}
+
+	.Dgentle-icon {
+		display: none;
+	}
+
+	.Dgentle-icon1 {
+		width: 17px;
+	}
+
+	.main-navbar {
+		display: none;
+	}
+
+	.rightarr-he {
+		display: none;
+	}
+
+	.questionmark-he {
+		display: none;
+	}
+
+	.questionmark-box p {
+		display: none;
+	}
+
+	.arrow-box {
+		display: none;
+	}
+
+	.search-box {
+		display: none;
+	}
+
+	.diagram1 {
+		width: 100%;
+	}
+
+	.diagram2 {
+		width: 100%;
+	}
+
+	.diagram3 {
+		width: 100%;
+	}
+
+	.diagram4 {
+		width: 100%;
+	}
+
+/*	*/
+	.home-article {
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.Electronics-h2 {
+		clear: both;
+		margin-bottom: 9px;
+		padding: 11px 11px;
+		background-color: whitesmoke;
+		font-size: 15px;
+	}
+
+	.home-header-button {
+		background-color: limegreen;
+		color: white;
+		border: solid limegreen;
+		font-size: 10px;
+		padding: 2px 12px;
+		border-radius: 6px;
+		margin: 12px 0px;
+		float: left;
+		cursor: pointer;
+
+	}
+
+	.call-order {
+		background-color: midnightblue;
+		border: 1px solid midnightblue;
+		color: white;
+		padding: 3px 12px;
+		border-radius: 6px;
+		font-size: 10px;
+		float: left;
+		margin: 12px 5px;
+		cursor: pointer;
+	}
+
+	.TVs {
+		margin-bottom: 2rem;
+	}
+
+	.Samsung55tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container {
+		width: 50%;
+	}
+
+	.image-container:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Samsung40tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container2 {
+		width: 50%;
+	}
+
+	.image-container2:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LED43tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container3 {
+		width: 50%;
+	}
+
+	.image-container3:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG50tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container4 {
+		width: 50%;
+	}
+
+	.image-container4:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG43tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container5 {
+		width: 50%;
+	}
+
+	.image-container5:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Sony65tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container6 {
+		width: 50%;
+	}
+
+	.image-container6:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.LG55tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+	.image-container7 {
+		width: 50%;
+	}
+
+	.image-container7:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Samsung43tv {
+		width: 52%;
+		padding: 33px 0px;
+	}
+
+
+	.image-container8 {
+		width: 50%;
+	}
+
+	.image-container8:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.AC {
+		width: 52%;
+		padding-top: 33px;
+		padding-bottom: 34px;
+	}
+
+	.image-container9 {
+		width: 50%;
+	}
+
+	.image-container9:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	.Soundbar {
+		width: 100%;
+		margin-top: 45px;
+		margin-bottom: 25px;
+	}
+
+	.image-container10 {
+		width: 50%;
+	}
+
+	.image-container10:hover {
+		box-shadow: 0px 6px 7px lightgrey;
+		border-radius: 5px;
+		transition: .4s ease-out;
+		cursor: pointer;
+	}
+
+	#naira {
+	/*	font-weight: bold;*/
+		font-size: 13px;
+		margin: 7px 0px;
+		font-family: cursive;
+		color:  #ea2027;
+	}
+
+	.Addcart {
+		background-color: rgb(254,45,45);
+		border: 1px solid rgb(254,45,45);
+		border-radius: 2px;
+		color: white;
+		width: 100%;
+		font-size: 12px;
+		padding: 9px;
+		margin: 11px 0px;
+		cursor: pointer;
+	}
+
+	.Addcart:active {
+		background-color: red;
+		border: 1px solid red;
+	}
+
+	a {
+		text-decoration: none;
+		color: midnightblue;
+	}
+
+	footer {
+		padding: 12px;
+		background-color: #595F66;
+		color: white;
+	}
+
+	.Contact-footer {
+		padding: 5px 0px;
+		font-size: 13px;
+	}
+
+	#Whatsapp-no {
+		padding: 6px 0px;
+		
+		font-weight: bold;
+
+	}
+
+	.Connect {
+		padding: 4px 0px;
+		font-size: 13px;
+	}
+
+	.main-footer {
+		width: 60%;	
+		float: left;
+	}
+
+	.connect {
+		width: 40%;
+		float: left;
+	}
+
+	.About-Us {
+		padding: 5px 0px;
+		font-size: 13px;
+	}
+
+	#Copyright {
+		margin: 7px 0px;
+	}
+
+
+	#FACEBOOK-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#INSTAGRAM-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#TIKTOk-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#facebook {
+		margin-left: 10px;
+	}
+
+	#instagram {
+		margin-left: 5px;
+
+	}
+
+	#tiktok {
+		margin-left: 26px;
+
+	}
+
+	#Whatsapp-text {
+		float: left;
+		margin: 4px 0px;
+	}
+
+	#Whatsapp {
+		margin-left: 5px;
+	}
+
+	.TVs {
+		text-align: center;
+	}
+
+
+/*	.footer-nav {
+		position: sticky;
+		bottom: 0;
+		display: flex;
+		width: 100%;
+		background-color: white;
+		padding-top: 4px;
+
+	}*/
+
+	.home-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+
+	.Categories-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Brands-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Cart-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	.Profile-nav {
+		width: 20%;
+		text-align: center;
+	}
+
+	/* Samsung55tv-html */
+
+	.Samsung55tv-html {
+		width: 40%;
+		text-align: center;
+	}
+
+	.Addcart-categories {
+		background-color: limegreen;
+		border: 1px solid limegreen;
+		border-radius: 2px;
+		color: white;
+		width: 100%;
+		font-size: 12px;
+		padding: 2px 4px;
+		margin-top: 7px;
+		cursor: pointer;
+	}
+
+	.Details {
+		margin-left: 24px;
+		line-height: 1.7rem;
+	}
+
+	.main-Tvs {
+		margin-left: 12px;
+		line-height: 1.5rem;
+	}
+
+	#Alaba-Market {
+		color: grey;
+	}
+
+	#Samsung-text {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+
+	#Stock {
+		color: forestgreen;
+	}
+
+	.Categories-article {
+		margin-top: 34PX;
+		margin-bottom: 54px;
+	}
+
+	#Sale {
+		color: midnightblue;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	#heyth {
+		font-size: 1.7rem;
+		color: black;
+		font-weight: bold;
+	}
+
+	#heyth:active {
+		color: midnightblue;
+	}
+
+
+	#heyth-Home {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Categories {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Categories:active {
+		color: midnightblue;
+	}
+
+	#heyth-Brands {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Brands:active {
+		color: midnightblue;
+	}
+
+	#heyth-Cart {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Cart:active {
+		color: midnightblue;
+	}
+
+	#heyth-Profile {
+		font-size: 1.7rem;
+		color: midnightblue;
+		font-weight: bold;
+	}
+
+	#heyth-Profile:active {
+		color: midnightblue;
+	}
+
+	/* End  */
+
+	.AC-box {
+		margin: 10px;
+		display: block;
+		gap: 0.6rem;
+	}
+
+	.AC-heading {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	#AC-p {
+		text-align: center;
+		font-size: 13px;
+		margin: 9px 22px;
+	}
+
+	.TVs-c {
+		margin: 10px;
+		display: block;
+		gap: 0.6rem;
+	}
+
+	.All-Cate {
+		text-align: center;
+		background-color: black;
+		background-image: url(img/Newsletter.png);
+		background-size: cover;
+		color: black;
+		padding: 3rem;
+		margin-top: 5rem;
+	}
+
+	.All- {
+		font-size: 14px;
+		margin-bottom: 15px;
+		padding-top: 62px;
+	}
+
+	.Cate-nav a{
+		color: black;
+		margin: 23px;
+		font-size: 11px;
+	}
+
+	#Cate-Home {
+		margin-right: 5px;
+	}
+
+	#Cate-AllCategories {
+		margin-left: 5px;
+	}
+
+	.Container-cate {
+		display: flex;
+		width: 100%;
+	/*	border: 1px solid red;*/
+
+		margin-top: 10px;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.Container-cate a {
+		color: black;
+	}
+
+	.Con-1 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+	.Con-2 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+	.Con-3 {
+		padding: 12px;
+		box-shadow: 4px 7px 10px darkgrey;
+		border-radius: 5px;
+		width: 30%;
+		text-align: center;
+		font-weight: bold;
+		background-color: aliceblue;
+	}
+
+
+
+	.Container-box1 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box2 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box3 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box4 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box5 {
+		display: flex;
+		width: 100%;
+	}
+
+	.Container-box6 {
+		display: flex;
+		width: 100%;
+	}
+
+	.sec1 {
+		display: block;
+	}
+
+	.sec2 {
+		display: block;
+	}
+
+	.section- {
+		width: 89%;
+		margin: 0 auto;
+		font-weight: bold;
+		color: #3b3d3b;
+		line-height: 1.4rem;
+	}
+
+
+}
